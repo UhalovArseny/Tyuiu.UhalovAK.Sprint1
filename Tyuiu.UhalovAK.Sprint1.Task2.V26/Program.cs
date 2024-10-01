@@ -26,11 +26,11 @@ namespace Tyuiu.UhalovAK.Sprint1.Task2.V26
 
             int  x, y;
 
-            Console.WriteLine("Введите значение X:");
+            Console.WriteLine("Введите Часы:");
             x = Convert.ToInt32(Console.ReadLine());
 
 
-            Console.WriteLine("Введите значение Y:");
+            Console.WriteLine("Введите Минуты:");
             y = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
