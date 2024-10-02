@@ -6,13 +6,14 @@ namespace Tyuiu.UhalovAK.Sprint1.Task6.V6.Lib
     {
         public string DeleteFirstLetter(string value)
         {
-
+            value = value.Trim();
             String[] words = value.Split(' ');
             string answer = "";
             for (int i = 0; i < words.Length; i++)
             {
                 answer += words[i].Substring(1) + " ";
             }
+
             return answer;
         }
     }
