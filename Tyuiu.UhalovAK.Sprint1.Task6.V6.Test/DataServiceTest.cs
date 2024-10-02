@@ -10,7 +10,7 @@ namespace Tyuiu.UhalovAK.Sprint1.Task6.V6.Test
             string strTest = "Привет мир!";
             DataService ds = new DataService();
             string res = ds.DeleteFirstLetter(strTest);
-            string wait = "ривет ир! ";
+            string wait = "ривет ир!";
             Assert.AreEqual(wait, res);
 
         }
