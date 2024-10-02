@@ -13,7 +13,7 @@ namespace Tyuiu.UhalovAK.Sprint1.Task6.V6.Lib
             {
                 answer += words[i].Substring(1) + " ";
             }
-
+            answer = answer.Trim();
             return answer;
         }
     }
